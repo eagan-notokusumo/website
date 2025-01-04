@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import fonts */
+
+
+/* Custom CSS Variables */
+:root {
+  /* Core colors */
+  --color-background: #FAF7F2;
+  --color-text: #1A1A1A;
+  --color-accent: #FF5C35;
+  --color-accent-secondary: #FF8C35;
+  --color-cream: #F5F0E8;
+  --color-gray: #666666;
+  --color-light-gray: #E5E5E5;
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Utility classes */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Typography scales */
+.display-large {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.display-medium {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3.75rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.heading-1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 500;
+}

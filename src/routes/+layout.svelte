@@ -1,6 +1,12 @@
 <script lang="ts">
-	import '../app.css';
 	let { children } = $props();
+	import '../lib/styles/globals.css';
+	import NavBar from '$lib/components/navigation/NavBar.svelte';
 </script>
 
-{@render children()}
+<div class="min-h-screen bg-background">
+	<NavBar />
+	<main class="pt-20">
+	  {@render children()}
+	</main>
+  </div>
