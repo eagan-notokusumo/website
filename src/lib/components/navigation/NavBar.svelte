@@ -79,9 +79,3 @@
     </div>
   </nav>
   
-  <style>
-    /* Optional: Add styles for the current page indicator */
-    a[aria-current="page"] {
-      @apply text-accent;
-    }
-  </style>
