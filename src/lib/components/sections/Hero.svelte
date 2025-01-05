@@ -41,7 +41,7 @@
                             duration={30} 
                             deleteDuration={20}
                             pauseDuration={1000}
-                            customClass="font-space text-3xl md:text-5xl lg:text-6xl text-text/80 font-light pt-6"
+                            customClass="font-space text-3xl md:text-4xl lg:text-5xl text-text/80 font-light pt-6"
                             onComplete={handleComplete}
                         />
                     </div>

@@ -26,7 +26,7 @@
           href="/" 
           class="font-space text-2xl font-medium text-text hover:text-accent transition-colors"
         >
-          Your Name
+          EAGAN NOTOKUSUMO
         </a>
   
         <!-- Desktop Navigation -->
